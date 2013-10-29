@@ -2,6 +2,7 @@ package thirdClass;
 
 import org.junit.Before;
 import org.junit.Test;
+import thirdClass.utils.CarConstant;
 
 import java.util.ArrayList;
 
@@ -80,7 +81,7 @@ public class TestParkingLot {
         cars.add(carTwo);
         ArrayList<ParkingLot> parkingLots = new ArrayList<ParkingLot>();
         parkingLots.add(parkingLot);
-        ParkWorker parkWorker = new ParkWorker(CarConstant.ST_WK_FREE);
+        NormalParkWorker parkWorker = new NormalParkWorker(CarConstant.ST_WK_FREE);
 
         parkWorker.parkCarByWorker(cars, parkingLots);
 
@@ -99,7 +100,7 @@ public class TestParkingLot {
         cars.add(carTwo);
         ArrayList<ParkingLot> parkingLots = new ArrayList<ParkingLot>();
         parkingLots.add(parkingLot);
-        ParkWorker parkWorker = new ParkWorker(CarConstant.ST_WK_BUSY);
+        NormalParkWorker parkWorker = new NormalParkWorker(CarConstant.ST_WK_BUSY);
 
         parkWorker.parkCarByWorker(cars, parkingLots);
 
@@ -122,7 +123,7 @@ public class TestParkingLot {
         ParkingLot parkingLotSmall = new ParkingLot(1);
         parkingLots.add(parkingLotSmall);
         parkingLots.add(parkingLot);
-        ParkWorker parkWorker = new ParkWorker(CarConstant.ST_WK_FREE);
+        NormalParkWorker parkWorker = new NormalParkWorker(CarConstant.ST_WK_FREE);
 
         parkWorker.parkCarByWorker(cars, parkingLots);
 

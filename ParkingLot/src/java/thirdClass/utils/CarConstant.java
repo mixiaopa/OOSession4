@@ -1,4 +1,4 @@
-package thirdClass;
+package thirdClass.utils;
 
 public class CarConstant {
     public static final String ST_WAIT = "Wait";

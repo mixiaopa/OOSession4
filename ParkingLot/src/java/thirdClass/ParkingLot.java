@@ -1,6 +1,6 @@
 package thirdClass;
 
-import java.util.ArrayList;
+import thirdClass.utils.CarConstant;
 
 public class ParkingLot {
     private final int maxNumberOfCar;

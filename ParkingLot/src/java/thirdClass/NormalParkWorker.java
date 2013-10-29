@@ -4,10 +4,10 @@ import thirdClass.utils.CarConstant;
 
 import java.util.ArrayList;
 
-public class SmartParkWorker implements ParkWorker {
+public class NormalParkWorker implements ParkWorker {
     private String workerStatus;
 
-    public SmartParkWorker(String status) {
+    public NormalParkWorker(String status) {
         this.workerStatus = status;
     }
 
@@ -21,20 +21,19 @@ public class SmartParkWorker implements ParkWorker {
 
     public void parkCarByWorker(ArrayList<Car> cars, ArrayList<ParkingLot> parkingLots) {
         int countCar = 0;
+        int countLot = 0;
         for (; countCar < cars.size(); countCar++) {
             Car car = cars.get(countCar);
             if (getWorkerStatus().equals(CarConstant.ST_WK_FREE)) {
                 setWorkerStatus(CarConstant.ST_WK_BUSY);
-                ParkingLot comparedLot = parkingLots.get(0);
-                for (ParkingLot lot: parkingLots) {
-                    if (comparedLot.getLeftPlaceNumberNow() <= lot.getLeftPlaceNumberNow() ) {
-                        comparedLot = lot;
-                    }
+                ParkingLot parkingLot = parkingLots.get(countLot);
+                parkingLot.parkCar(car);
+                if (parkingLot.getLeftPlaceNumberNow() == 0) {
+                    countLot++;
                 }
-                comparedLot.parkCar(car);
-
                 setWorkerStatus(CarConstant.ST_WK_FREE);
             }
         }
     }
 }
+
