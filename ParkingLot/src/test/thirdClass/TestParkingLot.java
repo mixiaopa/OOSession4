@@ -83,7 +83,8 @@ public class TestParkingLot {
         parkingLots.add(parkingLot);
         NormalParkWorker parkWorker = new NormalParkWorker(CarConstant.ST_WK_FREE);
 
-        parkWorker.parkCarByWorker(cars, parkingLots);
+        parkWorker.setParkingLots(parkingLots);
+        parkWorker.parkCarByWorker(cars);
 
         assertThat(parkingLot.getCarNumberNow(), is(2));
         assertThat(parkingLot.getLeftPlaceNumberNow(), is(998));
@@ -102,7 +103,8 @@ public class TestParkingLot {
         parkingLots.add(parkingLot);
         NormalParkWorker parkWorker = new NormalParkWorker(CarConstant.ST_WK_BUSY);
 
-        parkWorker.parkCarByWorker(cars, parkingLots);
+        parkWorker.setParkingLots(parkingLots);
+        parkWorker.parkCarByWorker(cars);
 
         assertThat(parkingLot.getCarNumberNow(), is(0));
         assertThat(parkingLot.getLeftPlaceNumberNow(), is(1000));
@@ -125,7 +127,8 @@ public class TestParkingLot {
         parkingLots.add(parkingLot);
         NormalParkWorker parkWorker = new NormalParkWorker(CarConstant.ST_WK_FREE);
 
-        parkWorker.parkCarByWorker(cars, parkingLots);
+        parkWorker.setParkingLots(parkingLots);
+        parkWorker.parkCarByWorker(cars);
 
         assertThat(parkingLotSmall.getCarNumberNow(), is(1));
         assertThat(parkingLot.getCarNumberNow(), is(2));

@@ -3,6 +3,7 @@ package thirdClass;
 import thirdClass.utils.CarConstant;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class PercentageParkWorker implements ParkWorker {
     private String workerStatus;
@@ -13,6 +14,16 @@ public class PercentageParkWorker implements ParkWorker {
 
     public String getWorkerStatus() {
         return workerStatus;
+    }
+
+    @Override
+    public void parkCarByWorker(List<Car> cars) {
+        //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    public void setParkingLots(ArrayList<ParkingLot> parkingLots) {
+        //To change body of implemented methods use File | Settings | File Templates.
     }
 
     public void setWorkerStatus(String status) {

@@ -30,9 +30,11 @@ public class TestSmartParkWorker {
         ArrayList<Car> cars = new ArrayList<Car>();
         cars.add(car);
 
-        SmartParkWorker smartParkWorker = new SmartParkWorker(CarConstant.ST_WK_FREE);
+        SmartParkWorker smartParkWorker = new SmartParkWorker();
+        smartParkWorker.setWorkerStatus(CarConstant.ST_WK_FREE);
+        smartParkWorker.setParkingLots(parkingLots);
 
-        smartParkWorker.parkCarByWorker(cars, parkingLots);
+        smartParkWorker.parkCarByWorker(cars);
 
         assertThat(parkingLotOne.getCarNumberNow(), is(0));
         assertThat(parkingLotOne.getLeftPlaceNumberNow(), is(1));

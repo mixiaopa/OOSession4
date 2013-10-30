@@ -3,9 +3,11 @@ package thirdClass;
 import thirdClass.utils.CarConstant;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class NormalParkWorker implements ParkWorker {
     private String workerStatus;
+    private List<ParkingLot> parkingLots;
 
     public NormalParkWorker(String status) {
         this.workerStatus = status;
@@ -15,11 +17,8 @@ public class NormalParkWorker implements ParkWorker {
         return workerStatus;
     }
 
-    public void setWorkerStatus(String status) {
-        this.workerStatus = status;
-    }
-
-    public void parkCarByWorker(ArrayList<Car> cars, ArrayList<ParkingLot> parkingLots) {
+    @Override
+    public void parkCarByWorker(List<Car> cars) {
         int countCar = 0;
         int countLot = 0;
         for (; countCar < cars.size(); countCar++) {
@@ -35,5 +34,15 @@ public class NormalParkWorker implements ParkWorker {
             }
         }
     }
+
+    @Override
+    public void setParkingLots(ArrayList<ParkingLot> parkingLots) {
+        this.parkingLots = parkingLots;
+    }
+
+    public void setWorkerStatus(String status) {
+        this.workerStatus = status;
+    }
+
 }
 

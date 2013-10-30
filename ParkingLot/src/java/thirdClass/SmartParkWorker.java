@@ -3,23 +3,18 @@ package thirdClass;
 import thirdClass.utils.CarConstant;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class SmartParkWorker implements ParkWorker {
     private String workerStatus;
-
-    public SmartParkWorker(String status) {
-        this.workerStatus = status;
-    }
+    private ArrayList<ParkingLot> parkingLots;
 
     public String getWorkerStatus() {
         return workerStatus;
     }
 
-    public void setWorkerStatus(String status) {
-        this.workerStatus = status;
-    }
-
-    public void parkCarByWorker(ArrayList<Car> cars, ArrayList<ParkingLot> parkingLots) {
+    @Override
+    public void parkCarByWorker(List<Car> cars) {
         int countCar = 0;
         for (; countCar < cars.size(); countCar++) {
             Car car = cars.get(countCar);
@@ -37,4 +32,14 @@ public class SmartParkWorker implements ParkWorker {
             }
         }
     }
+
+    @Override
+    public void setParkingLots(ArrayList<ParkingLot> parkingLots) {
+        this.parkingLots = parkingLots;
+    }
+
+    public void setWorkerStatus(String status) {
+        this.workerStatus = status;
+    }
+
 }
