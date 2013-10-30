@@ -11,16 +11,27 @@ import static org.junit.Assert.assertThat;
 
 public class TestParkingLot {
     private ParkingLot parkingLot;
+    private Car car;
+    private Car carTwo;
+    private ArrayList<Car> cars;
+    private ArrayList<ParkingLot> parkingLots;
+    private Car carThree;
 
     @Before
     public void setUp() throws Exception {
         parkingLot = new ParkingLot(1000);
+        car = new Car(001, CarConstant.ST_WAIT);
+        carTwo = new Car(002, CarConstant.ST_WAIT);
+        cars = new ArrayList<Car>();
+        parkingLots = new ArrayList<ParkingLot>();
+        cars.add(car);
+        cars.add(carTwo);
+        parkingLots.add(parkingLot);
+        carThree = new Car(003, CarConstant.ST_WAIT);
     }
 
     @Test
     public void shouldChangeStatusOfParkingLotWhenNewCarParked() throws Exception {
-        Car car = new Car(001, CarConstant.ST_WAIT);
-
         parkingLot.parkCar(car);
 
         assertThat(parkingLot.getCarNumberNow(), is(1));
@@ -31,9 +42,6 @@ public class TestParkingLot {
 
     @Test
     public void shouldSetStatusTwiceWhenTwoCarsParked() throws Exception {
-        Car car = new Car(001, CarConstant.ST_WAIT);
-        Car carTwo = new Car(002, CarConstant.ST_WAIT);
-
         parkingLot.parkCar(car);
         parkingLot.parkCar(carTwo);
 
@@ -47,8 +55,6 @@ public class TestParkingLot {
 
     @Test
     public void shouldSetStatusToLeaveWhenCarLeaveParkingLot() throws Exception {
-        Car car = new Car(001, CarConstant.ST_WAIT);
-
         parkingLot.parkCar(car);
         parkingLot.carLeave(car);
 
@@ -59,8 +65,6 @@ public class TestParkingLot {
 
     @Test
     public void shouldNotParkMoreCarWhenParkingLotIsFull() throws Exception {
-        Car car = new Car(001, CarConstant.ST_WAIT);
-        Car carTwo = new Car(002, CarConstant.ST_WAIT);
         ParkingLot parkingLotSmall = new ParkingLot(1);
 
         parkingLotSmall.parkCar(car);
@@ -74,13 +78,6 @@ public class TestParkingLot {
 
     @Test
     public void shouldParkCarByWorker() throws Exception {
-        Car car = new Car(001, CarConstant.ST_WAIT);
-        Car carTwo = new Car(002, CarConstant.ST_WAIT);
-        ArrayList<Car> cars = new ArrayList<Car>();
-        cars.add(car);
-        cars.add(carTwo);
-        ArrayList<ParkingLot> parkingLots = new ArrayList<ParkingLot>();
-        parkingLots.add(parkingLot);
         NormalParkWorker parkWorker = new NormalParkWorker(CarConstant.ST_WK_FREE);
 
         parkWorker.setParkingLots(parkingLots);
@@ -94,13 +91,6 @@ public class TestParkingLot {
 
     @Test
     public void shouldWaitIfWorkerIsBusy() throws Exception {
-        Car car = new Car(001, CarConstant.ST_WAIT);
-        Car carTwo = new Car(002, CarConstant.ST_WAIT);
-        ArrayList<Car> cars = new ArrayList<Car>();
-        cars.add(car);
-        cars.add(carTwo);
-        ArrayList<ParkingLot> parkingLots = new ArrayList<ParkingLot>();
-        parkingLots.add(parkingLot);
         NormalParkWorker parkWorker = new NormalParkWorker(CarConstant.ST_WK_BUSY);
 
         parkWorker.setParkingLots(parkingLots);
@@ -114,12 +104,6 @@ public class TestParkingLot {
 
     @Test
     public void shouldParkToParkingLotTwoIfLotOneIsFull() throws Exception {
-        Car car = new Car(001, CarConstant.ST_WAIT);
-        Car carTwo = new Car(002, CarConstant.ST_WAIT);
-        Car carThree = new Car(003, CarConstant.ST_WAIT);
-        ArrayList<Car> cars = new ArrayList<Car>();
-        cars.add(car);
-        cars.add(carTwo);
         cars.add(carThree);
         ArrayList<ParkingLot> parkingLots = new ArrayList<ParkingLot>();
         ParkingLot parkingLotSmall = new ParkingLot(1);

@@ -5,7 +5,6 @@ import thirdClass.utils.CarConstant;
 public class ParkingLot {
     private final int maxNumberOfCar;
     private int carNumberNow;
-    private int leftPlaceNumberNow;
 
     public ParkingLot(int maxNumber) {
         this.maxNumberOfCar = maxNumber;

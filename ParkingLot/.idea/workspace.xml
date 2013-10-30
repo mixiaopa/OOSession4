@@ -102,10 +102,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestParkingLot.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestParkingLot.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/thirdClass/TestParkingLot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="50" selection-start="4089" selection-end="4089" vertical-scroll-proportion="0.6328767">
+            <state line="122" column="47" selection-start="4532" selection-end="4532" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3775#3787#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParkingLot.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/thirdClass/ParkingLot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="63" selection-start="712" selection-end="712" vertical-scroll-proportion="0.3014553">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NormalParkWorker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/thirdClass/NormalParkWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="31" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,7 +146,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/java/thirdClass/Car.java" />
         <option value="$PROJECT_DIR$/src/java/thirdClass/TestParkingLot.java" />
-        <option value="$PROJECT_DIR$/src/java/thirdClass/ParkingLot.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/thirdClass/ParkWorkerTest.java" />
         <option value="$PROJECT_DIR$/src/java/NormalParkWorker.java" />
@@ -133,12 +153,13 @@
         <option value="$PROJECT_DIR$/src/java/thirdClass/ParkWorker.java" />
         <option value="$PROJECT_DIR$/src/test/thirdClass/TestSmartParkWorker.java" />
         <option value="$PROJECT_DIR$/src/java/thirdClass/PercentageParkWorker.java" />
-        <option value="$PROJECT_DIR$/src/test/thirdClass/TestParkingLot.java" />
         <option value="$PROJECT_DIR$/src/java/thirdClass/NormalParkWorker.java" />
         <option value="$PROJECT_DIR$/src/java/thirdClass/Manager.java" />
         <option value="$PROJECT_DIR$/src/java/thirdClass/SmartParkWorker.java" />
         <option value="$PROJECT_DIR$/src/test/thirdClass/TestManager.java" />
         <option value="$PROJECT_DIR$/src/test/thirdClass/TestSuperManager.java" />
+        <option value="$PROJECT_DIR$/src/test/thirdClass/TestParkingLot.java" />
+        <option value="$PROJECT_DIR$/src/java/thirdClass/ParkingLot.java" />
       </list>
     </option>
   </component>
@@ -292,7 +313,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestManager">
+  <component name="RunManager" selected="JUnit.TestParkingLot">
     <configuration default="false" name="TestSmartParkWorker.shouldParkToParkingLotTwoWhenLotTwoHasMoreEmptySeats" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -422,7 +443,9 @@
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="false" name="TestManager" type="JUnit" factoryName="JUnit" temporary="true">
@@ -568,10 +591,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestManager" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestManager.shouldParkCarByParkingWorker" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestSmartParkWorker.shouldParkToParkingLotTwoWhenLotTwoHasMoreEmptySeats" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestParkingLot" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestParkingLot" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestManager" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestManager.shouldParkCarByParkingWorker" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestSmartParkWorker.shouldParkToParkingLotTwoWhenLotTwoHasMoreEmptySeats" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.TestParkingLot.shouldWaitIfWorkerIsBusy" />
       </list>
     </recent_temporary>
@@ -731,13 +754,6 @@
         <state line="9" column="12" selection-start="220" selection-end="220" vertical-scroll-proportion="0.2581967" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/thirdClass/ParkingLot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="16" selection-start="524" selection-end="524" vertical-scroll-proportion="0.42465752">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/thirdClass/TestPercentageParkWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="36" selection-start="2060" selection-end="2060" vertical-scroll-proportion="0.4379391">
@@ -748,15 +764,6 @@
     <entry file="file://$PROJECT_DIR$/src/java/thirdClass/PercentageParkWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="8" selection-start="441" selection-end="518" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/thirdClass/NormalParkWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1274" selection-end="1274" vertical-scroll-proportion="1.2079208">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -815,10 +822,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/thirdClass/TestParkingLot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="50" selection-start="4089" selection-end="4089" vertical-scroll-proportion="0.6328767">
+        <state line="122" column="47" selection-start="4532" selection-end="4532" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3775#3787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/thirdClass/NormalParkWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="31" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/thirdClass/ParkingLot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="63" selection-start="712" selection-end="712" vertical-scroll-proportion="0.3014553">
+          <folding />
         </state>
       </provider>
     </entry>
