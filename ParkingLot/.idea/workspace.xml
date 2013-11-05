@@ -5,7 +5,7 @@
     <ignored path="ParkingLot.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/TestParkingLot.java" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1383128109128" ignored="false" />
-    <file path="/fragment.java" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1383125839255" ignored="false" />
+    <file path="/fragment.java" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1383662682414" ignored="false" />
     <file path="/Car.java" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1382252022391" ignored="false" />
     <file path="/ParkingLot.java" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1382271214960" ignored="false" />
     <file path="/a.java" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1382251011570" ignored="false" />
@@ -15,13 +15,16 @@
     <file path="/Dummy.txt" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1382273945131" ignored="false" />
     <file path="$PROJECT_DIR$/../../2/OOTrainSec/.idea/workspace.xml" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1382273965131" ignored="false" />
     <file path="$USER_HOME$/TechOpsCodeBase/dso/ui-tests/dso/build/features.html" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1382442248605" ignored="false" />
-    <file path="/SmartParkWorker.java" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1383127530870" ignored="false" />
+    <file path="/SmartParkWorker.java" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1383665238619" ignored="false" />
     <file path="/TestSmartParkWorker.java" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1383127335758" ignored="false" />
     <file path="/NormalParkWorker.java" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1383127380039" ignored="false" />
     <file path="/PercentageParkWorker.java" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1383056051412" ignored="false" />
     <file path="/TestPercentageParkWorker.java" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1383055787065" ignored="false" />
     <file path="/TestManager.java" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1383129614863" ignored="false" />
-    <file path="/Manager.java" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1383128481168" ignored="false" />
+    <file path="/Manager.java" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1383664977604" ignored="false" />
+    <file path="/TestSuperManager.java" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1383664866247" ignored="false" />
+    <file path="/SuperManager.java" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1383663952698" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="c50a09ca-1284-44d9-b8a5-b3ca07d21f69" time="1383665245417" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,16 +88,7 @@
       <file leaf-file-name="TestSuperManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/thirdClass/TestSuperManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/thirdClass/TestManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="66" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0">
+            <state line="71" column="42" selection-start="2127" selection-end="2131" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,31 +96,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestParkingLot.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/thirdClass/TestParkingLot.java">
+      <file leaf-file-name="Manager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/thirdClass/Manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="47" selection-start="4532" selection-end="4532" vertical-scroll-proportion="0.0">
+            <state line="21" column="38" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3775#3787#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParkingLot.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/java/thirdClass/ParkingLot.java">
+      <file leaf-file-name="SmartParkWorker.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/thirdClass/SmartParkWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="63" selection-start="712" selection-end="712" vertical-scroll-proportion="0.3014553">
-              <folding />
+            <state line="22" column="110" selection-start="641" selection-end="641" vertical-scroll-proportion="0.12681913">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NormalParkWorker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/thirdClass/NormalParkWorker.java">
+      <file leaf-file-name="ParkWorker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/thirdClass/ParkWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="31" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
+            <state line="6" column="16" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuperManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/thirdClass/SuperManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="17" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/java/thirdClass/Car.java" />
         <option value="$PROJECT_DIR$/src/java/thirdClass/TestParkingLot.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/thirdClass/ParkWorkerTest.java" />
@@ -154,12 +159,13 @@
         <option value="$PROJECT_DIR$/src/test/thirdClass/TestSmartParkWorker.java" />
         <option value="$PROJECT_DIR$/src/java/thirdClass/PercentageParkWorker.java" />
         <option value="$PROJECT_DIR$/src/java/thirdClass/NormalParkWorker.java" />
-        <option value="$PROJECT_DIR$/src/java/thirdClass/Manager.java" />
-        <option value="$PROJECT_DIR$/src/java/thirdClass/SmartParkWorker.java" />
         <option value="$PROJECT_DIR$/src/test/thirdClass/TestManager.java" />
-        <option value="$PROJECT_DIR$/src/test/thirdClass/TestSuperManager.java" />
         <option value="$PROJECT_DIR$/src/test/thirdClass/TestParkingLot.java" />
         <option value="$PROJECT_DIR$/src/java/thirdClass/ParkingLot.java" />
+        <option value="$PROJECT_DIR$/src/test/thirdClass/TestSuperManager.java" />
+        <option value="$PROJECT_DIR$/src/java/thirdClass/SuperManager.java" />
+        <option value="$PROJECT_DIR$/src/java/thirdClass/Manager.java" />
+        <option value="$PROJECT_DIR$/src/java/thirdClass/SmartParkWorker.java" />
       </list>
     </option>
   </component>
@@ -286,19 +292,19 @@
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="thirdClass" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="IntroduceConstantDialog.RECENTS_KEY">
       <recent name="thirdClass.CarConstant" />
@@ -306,114 +312,14 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="thirdClass" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="thirdClass" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="thirdClass" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestParkingLot">
-    <configuration default="false" name="TestSmartParkWorker.shouldParkToParkingLotTwoWhenLotTwoHasMoreEmptySeats" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="thirdClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ParkingLot" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="thirdClass" />
-      <option name="MAIN_CLASS_NAME" value="thirdClass.TestSmartParkWorker" />
-      <option name="METHOD_NAME" value="shouldParkToParkingLotTwoWhenLotTwoHasMoreEmptySeats" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestManager.shouldParkCarByParkingWorker" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="thirdClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ParkingLot" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="thirdClass" />
-      <option name="MAIN_CLASS_NAME" value="thirdClass.TestManager" />
-      <option name="METHOD_NAME" value="shouldParkCarByParkingWorker" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestParkingLot.shouldWaitIfWorkerIsBusy" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="thirdClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ParkingLot" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="thirdClass" />
-      <option name="MAIN_CLASS_NAME" value="thirdClass.TestParkingLot" />
-      <option name="METHOD_NAME" value="shouldWaitIfWorkerIsBusy" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestSuperManager">
     <configuration default="false" name="TestParkingLot" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -482,10 +388,94 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
+    <configuration default="false" name="TestSuperManager.shouldAskManagerParkCar" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="thirdClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ParkingLot" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="thirdClass" />
+      <option name="MAIN_CLASS_NAME" value="thirdClass.TestSuperManager" />
+      <option name="METHOD_NAME" value="shouldAskManagerParkCar" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestSuperManager.shouldParkCarByParkingWorker" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="thirdClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ParkingLot" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="thirdClass" />
+      <option name="MAIN_CLASS_NAME" value="thirdClass.TestSuperManager" />
+      <option name="METHOD_NAME" value="shouldParkCarByParkingWorker" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestSuperManager" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="thirdClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ParkingLot" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="thirdClass" />
+      <option name="MAIN_CLASS_NAME" value="thirdClass.TestSuperManager" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
@@ -497,25 +487,18 @@
       <setting name="debug" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -544,6 +527,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -583,19 +579,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestSmartParkWorker.shouldParkToParkingLotTwoWhenLotTwoHasMoreEmptySeats" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestManager.shouldParkCarByParkingWorker" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestParkingLot.shouldWaitIfWorkerIsBusy" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestParkingLot" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestManager" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestParkingLot" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestManager" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestSuperManager.shouldAskManagerParkCar" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestSuperManager.shouldParkCarByParkingWorker" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestSuperManager" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestParkingLot" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestManager" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestManager.shouldParkCarByParkingWorker" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestSmartParkWorker.shouldParkToParkingLotTwoWhenLotTwoHasMoreEmptySeats" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestParkingLot.shouldWaitIfWorkerIsBusy" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestSuperManager" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestSuperManager.shouldParkCarByParkingWorker" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestSuperManager.shouldAskManagerParkCar" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestParkingLot" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestManager" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -631,13 +627,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1436" height="878" extended-state="0" />
+    <frame x="4" y="22" width="1436" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39973614" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -659,6 +654,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39973614" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -727,43 +723,95 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/thirdClass/TestParkingLot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="47" selection-start="4532" selection-end="4532" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/thirdClass/NormalParkWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="31" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/thirdClass/ParkingLot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="63" selection-start="712" selection-end="712" vertical-scroll-proportion="0.539726">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/thirdClass/TestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="50" selection-start="753" selection-end="795" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runner/notification/Failure.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="396" selection-end="396" vertical-scroll-proportion="-5.36">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runner/notification/RunNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="16" selection-start="1045" selection-end="1045" vertical-scroll-proportion="-4.88">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="490" selection-end="490" vertical-scroll-proportion="-4.88">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runner/JUnitCore.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="35" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.35519126" />
+        <state line="31" column="35" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.35519126">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="16" selection-start="2766" selection-end="2766" vertical-scroll-proportion="0.33161953" />
+        <state line="50" column="16" selection-start="2766" selection-end="2766" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.52238804" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/thirdClass/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="45" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
+        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.52238804">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/java/thirdClass/SuperManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="220" selection-end="220" vertical-scroll-proportion="0.2581967" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/thirdClass/TestPercentageParkWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="36" selection-start="2060" selection-end="2060" vertical-scroll-proportion="0.4379391">
-          <folding />
+        <state line="20" column="17" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/thirdClass/PercentageParkWorker.java">
+    <entry file="file://$PROJECT_DIR$/src/test/thirdClass/TestSuperManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="8" selection-start="441" selection-end="518" vertical-scroll-proportion="0.0">
+        <state line="71" column="42" selection-start="2127" selection-end="2131" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -772,25 +820,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/thirdClass/ParkWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/thirdClass/TestSmartParkWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="56" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/thirdClass/SmartParkWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.0">
+        <state line="6" column="16" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -799,50 +829,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/thirdClass/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/thirdClass/TestSuperManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/thirdClass/TestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="66" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.0">
+        <state line="21" column="38" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/thirdClass/TestParkingLot.java">
+    <entry file="file://$PROJECT_DIR$/src/java/thirdClass/SmartParkWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="47" selection-start="4532" selection-end="4532" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3775#3787#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/thirdClass/NormalParkWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="31" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
+        <state line="22" column="110" selection-start="641" selection-end="641" vertical-scroll-proportion="0.12681913">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/thirdClass/ParkingLot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="63" selection-start="712" selection-end="712" vertical-scroll-proportion="0.3014553">
-          <folding />
         </state>
       </provider>
     </entry>

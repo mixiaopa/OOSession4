@@ -1,5 +1,7 @@
 package thirdClass;
 
+import thirdClass.utils.CarConstant;
+
 import java.util.List;
 
 public class Manager extends SmartParkWorker {
@@ -14,8 +16,12 @@ public class Manager extends SmartParkWorker {
     }
 
     public void parkCar(List<Car> cars) {
-        for (ParkWorker parkWorker : parkWorkers) {
-            parkWorker.parkCarByWorker(cars);
+        for (Car car : cars) {
+            if (!car.getStatus().equals(CarConstant.ST_PARKED)) {
+                for (ParkWorker parkWorker : parkWorkers) {
+                    parkWorker.parkCarByWorker(cars);
+                }
+            }
         }
     }
 }
